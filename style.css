@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container-1{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 65px;
+    align-items: end;
+}
+.container-1 h1{
+    display: flex;
+    align-self: center; /*Centrar solo un item GOOOOOOD*/
+}
+.container-1 ul{
+    display: flex;
+    list-style: none;
+    align-items: end;
+}
+.container-1 input{
+    height: 20px;
+    align-items: end;
+}
