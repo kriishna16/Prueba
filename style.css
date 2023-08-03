@@ -2,23 +2,45 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: blueviolet;
+}
 .container-1{
     display: flex;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     height: 65px;
     align-items: end;
+    justify-content: center;
 }
 .container-1 h1{
     display: flex;
     align-self: center; /*Centrar solo un item GOOOOOOD*/
 }
+.logo-cgkr{
+    margin-right: 150px;
+}
 .container-1 ul{
+    margin-right: 100px;
     display: flex;
+    font-size: 20px;
     list-style: none;
     align-items: end;
+}
+.container-1 li{
+    padding-left: 50px;
 }
 .container-1 input{
     height: 20px;
     align-items: end;
+    border-radius: 15px;
+    border: solid;
+    margin-left: 20px;
+    width: 400px;
+}
+.logos-nav{
+    padding-right: 10px;
+}
+.logos-nav li{
+    padding-right: 10px;
 }
