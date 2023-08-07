@@ -2,7 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
-.container-1{
+
+.container-1 {
     display: flex;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -11,16 +12,19 @@
     justify-content: center;
     font-size: 21px;
 }
-.nav-list{
+
+.nav-list {
     color: black;
     text-decoration: none;
 }
+
 /**MODIFICAR LOGO**/
-.logo-cgkr{
+.logo-cgkr {
     margin-left: 50px;
 }
+
 /**ES PARA MODIFICAR LA LISTA ul **/
-.container-1 ul{
+.container-1 ul {
     margin-right: 90px;
     display: flex;
     list-style: none;
@@ -28,12 +32,12 @@
 }
 
 /**DISTANCIA ENTRE INICIO-LANZAMIENTO-OFERTAS-BUSCADOR-ICONS**/
-.container-1 li{
+.container-1 li {
     padding-left: 50px;
 }
 
 /**BUSCADOR MODIFICAR**/
-.container-1 input{
+.container-1 input {
     height: 25px;
     border-radius: 15px;
     border: solid;
@@ -42,19 +46,23 @@
     margin-left: 35px;
     padding-left: 10px;
 }
-.cuenta{
+
+.cuenta {
     margin-left: 10px;
 }
-.linea{
+
+.linea {
     background-color: rgb(0, 0, 0);
     height: 4px;
 }
-.conocenos{
+
+.conocenos {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
 }
-.claudio{
+
+.claudio {
     height: 600px;
     width: 180px;
     border: solid;
@@ -62,12 +70,13 @@
     padding-right: 50px;
     border-radius: 35px;
 }
-.claudio img{
+
+.claudio img {
     border-radius: 20px;
     margin-left: -20px;
 }
 
-.geraldine{
+.geraldine {
     height: 600px;
     width: 190px;
     border: solid;
@@ -75,12 +84,13 @@
     padding-right: 50px;
     border-radius: 35px;
 }
-.geraldine img{
+
+.geraldine img {
     border-radius: 20px;
     margin-left: -7px;
 }
 
-.krishna{
+.krishna {
     height: 600px;
     width: 190px;
     border: solid;
@@ -88,12 +98,13 @@
     padding-right: 50px;
     border-radius: 35px;
 }
-.krishna img{
+
+.krishna img {
     border-radius: 20px;
     margin-left: -18px;
 }
 
-.renato{
+.renato {
     height: 600px;
     width: 170px;
     border: solid;
@@ -101,7 +112,60 @@
     padding-right: 50px;
     border-radius: 35px;
 }
-.renato img{
+
+.renato img {
     border-radius: 20px;
     margin-left: -26px;
+}
+
+.ingresa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 50px;
+    height: 560px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.ingresa input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button[type="submit"]{
+    padding: 10px;
+    background-color: transparent;
+    color: #000000;
+    border-radius: 5px;
+    border: solid;
+}
+.registrate{
+    height: 10px;
+    background-color: transparent;
+    border: solid;
+    font-size: 10px;
+    height: 45px;
+    list-style: none;
+    margin: 10px;
+}
+.registrate h1{
+    padding-left: 120px;
+}
+.registrate-registrate{
+    border: solid;
+    text-decoration: none;
+    color: black;
+    padding-left: 120px;
+    padding-top: 10px;
+    font-size: 13px;
+    height: 40px;
 }
