@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-
 .container-1 {
     display: flex;
     background-color: rgb(255, 255, 255);
@@ -11,9 +10,9 @@
     align-items: end;
     justify-content: center;
     font-size: 32px;
-    font-family: "gill sans",sans-serif;
+    font-family: "gill sans", sans-serif;
 }
-.portada-zapatillas{
+.portada-zapatillas {
     width: 100%;
     height: 100%;
 }
@@ -21,13 +20,11 @@
     color: black;
     text-decoration: none;
 }
-
 /**MODIFICAR LOGO**/
 .logo-cgkr {
     display: flex;
     margin-left: -20px;
 }
-
 /**ES PARA MODIFICAR LA LISTA ul **/
 .container-1 ul {
     display: flex;
@@ -35,12 +32,10 @@
     list-style: none;
     align-items: end;
 }
-
 /**DISTANCIA ENTRE INICIO-LANZAMIENTO-OFERTAS-BUSCADOR-ICONS**/
 .container-1 li {
     padding-left: 55px;
 }
-
 /**BUSCADOR MODIFICAR**/
 .container-1 input {
     height: 25px;
@@ -51,18 +46,15 @@
     margin-left: 35px;
     padding-left: 10px;
 }
-
 .linea {
     background-color: rgb(0, 0, 0);
     height: 4px;
 }
-
 .conocenos {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
 }
-
 .claudio {
     height: 600px;
     width: 180px;
@@ -71,12 +63,10 @@
     padding-right: 50px;
     border-radius: 35px;
 }
-
 .claudio img {
     border-radius: 20px;
     margin-left: -20px;
 }
-
 .geraldine {
     height: 600px;
     width: 190px;
@@ -85,12 +75,10 @@
     padding-right: 50px;
     border-radius: 35px;
 }
-
 .geraldine img {
     border-radius: 20px;
     margin-left: -7px;
 }
-
 .krishna {
     height: 600px;
     width: 190px;
@@ -99,12 +87,10 @@
     padding-right: 50px;
     border-radius: 35px;
 }
-
 .krishna img {
     border-radius: 20px;
     margin-left: -18px;
 }
-
 .renato {
     height: 600px;
     width: 170px;
@@ -113,13 +99,11 @@
     padding-right: 50px;
     border-radius: 35px;
 }
-
 .renato img {
     border-radius: 20px;
     margin-left: -26px;
 }
-
-.ingresa{
+.ingresa {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,14 +126,14 @@ input[type="password"] {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
-button[type="submit"]{
+button[type="submit"] {
     padding: 10px;
     background-color: transparent;
     color: #000000;
     border-radius: 5px;
     border: solid;
 }
-.registrate{
+.registrate {
     height: 10px;
     background-color: transparent;
     border: solid;
@@ -158,10 +142,10 @@ button[type="submit"]{
     list-style: none;
     margin: 10px;
 }
-.registrate h1{
+.registrate h1 {
     padding-left: 120px;
 }
-.registrate-registrate{
+.registrate-registrate {
     border: solid;
     text-decoration: none;
     color: black;
@@ -169,4 +153,29 @@ button[type="submit"]{
     padding-top: 10px;
     font-size: 13px;
     height: 40px;
+}
+/*lanzamineto*/
+.titulo-lanzamiento{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.shoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.shoes img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.shoes p {
+    margin: 0;
+}
+.titulo-ofertas{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
 }
