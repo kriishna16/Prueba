@@ -184,7 +184,7 @@ button[type="submit"] {
     justify-content: center;
     margin: 25px;
 }
-* Estilos para el contenido */
+/* Estilos para el contenido */
 .contenido {
   max-width: 1100px;/*Tamano de categoria de zapatillas*/ 
   width: 100%;
