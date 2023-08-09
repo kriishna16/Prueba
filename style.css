@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+nav{
+    display: flex;
+
+}
 .container-1 {
     display: flex;
     background-color: rgb(255, 255, 255);
@@ -9,7 +13,7 @@
     height: 105px;
     align-items: end;
     justify-content: center;
-    font-size: 32px;
+    font-size: 30px;
     font-family: "gill sans", sans-serif;
 }
 .portada-zapatillas {
@@ -20,21 +24,16 @@
     color: black;
     text-decoration: none;
 }
-/**MODIFICAR LOGO**/
-.logo-cgkr {
-    display: flex;
-    margin-left: -20px;
-}
 /**ES PARA MODIFICAR LA LISTA ul **/
 .container-1 ul {
     display: flex;
-    margin-right: 90px;
+    margin-right: 50px;
     list-style: none;
     align-items: end;
 }
 /**DISTANCIA ENTRE INICIO-LANZAMIENTO-OFERTAS-BUSCADOR-ICONS**/
 .container-1 li {
-    padding-left: 55px;
+    padding-left: 40px;
 }
 /**BUSCADOR MODIFICAR**/
 .container-1 input {
@@ -46,6 +45,12 @@
     margin-left: 35px;
     padding-left: 10px;
 }
+.cuenta{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+/**MODIFICAR LINEA**/
 .linea {
     background-color: rgb(0, 0, 0);
     height: 4px;
@@ -57,10 +62,10 @@
 }
 .claudio {
     height: 600px;
-    width: 180px;
+    width: 140px;
     border: solid;
-    padding-left: 110px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 30px;
     border-radius: 35px;
 }
 .claudio img {
@@ -69,22 +74,22 @@
 }
 .geraldine {
     height: 600px;
-    width: 190px;
+    width: 140px;
     border: solid;
-    padding-left: 100px;
-    padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 30px;
     border-radius: 35px;
 }
 .geraldine img {
     border-radius: 20px;
-    margin-left: -7px;
+    margin-left: -18px;
 }
 .krishna {
     height: 600px;
-    width: 190px;
+    width: 140px;
     border: solid;
-    padding-left: 100px;
-    padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 30px;
     border-radius: 35px;
 }
 .krishna img {
@@ -93,15 +98,27 @@
 }
 .renato {
     height: 600px;
-    width: 170px;
+    width: 140px;
     border: solid;
-    padding-left: 110px;
-    padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 30px;
     border-radius: 35px;
 }
 .renato img {
     border-radius: 20px;
     margin-left: -26px;
+}
+.cristian{
+    height: 600px;
+    width: 140px;
+    border: solid;
+    padding-left: 60px;
+    padding-right: 30px;
+    border-radius: 35px;
+}
+.cristian img {
+    border-radius: 20px;
+    margin-left: -17px;
 }
 .ingresa {
     display: flex;
@@ -178,4 +195,153 @@ button[type="submit"] {
     display: flex;
     justify-content: center;
     margin: 25px;
+}
+/* Estilos para el contenido */
+.contenido {
+  max-width: 1100px;/*Tamano de categoria de zapatillas*/ 
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mostrador {
+  width: 100%;
+  transition: .5s ease;
+}
+
+.mostrador .fila {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;/*tamano del cuadrado grande al seleccionar */
+}
+
+.mostrador .fila .item {
+  flex-basis: 30%;
+  max-width: 210px;
+  padding: 30px;
+  height: 325px;/* tamano de diferencia de las zapatillas alto y bajo*/
+  text-align: center;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;/*tamano y forma de la zapailla*/
+  transition: .3s;
+}
+
+.mostrador .fila .item:hover {
+  background-color: #ffffff;/*color de cuadrado de las zapatillas*/
+}
+
+.mostrador .fila .item img {
+  width: 95%;/*Tamano de la zapatilla dentro del cuadrado*/
+  margin: 30px 0;
+}
+
+.mostrador .fila .item .descripcion {
+  color: #707070;
+  font-weight: bold;
+}
+
+.mostrador .fila .item .precio {
+  color: #f81515;/*Color de precio*/
+  font-weight: bold;
+  font-size: 22px;/*Tamano del precio*/
+}
+
+.seleccion {
+  transition: .5s ease;
+  opacity: 0;
+  width: 0%;
+  border: 1px solid #cccc;/*Color de la linea al seleccionar*/
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.cerrar {
+  position: absolute;
+  right: 20px;
+  top: 20px;/*tamano de la x(cerrar)*/
+  cursor: pointer;
+}
+
+.info {
+  padding: 20px;/*Borde de precio y talla*/
+}
+
+.info img {
+  display: block;
+  margin: 40px;/*lugar donde se posiciona la zapatilla(derecha o izquirda) */
+  width: 85%;/*Tamano de la zapatilla al entrar a la seleccion */
+}
+
+.info h2 {
+  color: #707070;/*Color de letras Modelos*/
+  margin-bottom: 0px;/*separacion de letras "Modelos"*/
+}
+
+.info p {
+  font-size: 15px;/*tamano de (descripcion del modelo)*/
+  color: #707070;/*Color de letras "descripcion del modelo"*/
+  margin-bottom: 0px;/*lugar para colocar el "Agregar al carrito"*/
+}
+
+.info .precio {
+  font-size: 20px;/*tamano del precio*/
+  font-weight: bold;/*estilo de letra*/
+  color: #707070;/*Color de letras "precio"*/
+  margin-bottom: 0px;
+  display: block;
+}
+
+.info .fila {
+  display: flex;
+  align-items: flex-end;
+}
+
+.info .fila label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.info .fila select {
+  width: 100px;/*Tamano(ancho) de la talla*/
+  font-size: 19px;/*Tamano del numero de la talla*/
+  padding: 6px;/*Tamano(alto) de la talla*/
+  margin-right: 30px;
+}
+
+.info .fila button {
+  height: 30px;/*Tamano de "agregar al carrito"*/
+  border: none;
+  width: 100%;
+  padding: 0px;
+  color: #ffff;
+  background-color: #f81515;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .mostrador .fila .item {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+  }
+
+    .info img {
+    margin: 20px;
+    }
+
+    .info .fila select {
+    margin-right: 0px;
+    margin-bottom: 10px;
+    }
+}
+.bodyD{
+    background-image: url('img/e3c1d7cc-8155-4f7a-9afb-141513b80b70.jpg');
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover; /*Tamano(ancho) de la talla*/
 }
