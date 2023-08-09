@@ -343,7 +343,5 @@ button[type="submit"] {
     background-image: url('img/e3c1d7cc-8155-4f7a-9afb-141513b80b70.jpg');
     background-repeat: repeat;
     background-position: center center;
-    background-size: cover;
-    
-
+    background-size: cover; /*Tamano(ancho) de la talla*/
 }
