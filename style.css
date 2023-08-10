@@ -244,6 +244,7 @@ button[type="submit"] {
 }
 
 .mostrador .fila .item .precio {
+  text-decoration:line-through ;
   color: #f81515;/*Color de precio*/
   font-weight: bold;
   font-size: 22px;/*Tamano del precio*/
